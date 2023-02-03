@@ -1,7 +1,12 @@
 const inquirer = require('inquirer');
 const fs = require('fs/promises');
+const { generateReadME } = require("./generator");
+
 const handleResponse = (response) => {
-  console.log(response);
+  let readMeMarkDown = generateReadME(response);
+  fs.writeFile("ReadME.md", readMeMarkDown, "utf8")
+    .then(() => console.log("File Created!"))
+  // .catch(err => console.log(`Error: ${err}`))
 }
 
 

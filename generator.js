@@ -1,33 +1,38 @@
-const generateReadME = () => {
-`# ${title}
+const generateReadME = (response) => {
+    return `# ${response.Title}
 
 ## Description
 
-${description}
+${response.Description}
 
 ## Installation
 
-${installation}
+${response.Installation}
 
 ## Usage
 
-${usage}
+${response.Usage}
 
 ## Contributors
 
-${contributors}
+${response.Contributors}
 
+## Questions? Contact Me:
 
-DEPLOYED LINK TO APPLICATION:
+GitHub Username: ${response.Username}
 
-https://skullkid4200.github.io/Timed-Coding-Quiz-Week-4/
+GitHub Link: https://github.com/${response.Username}
+
+## Or Email Me: 
+
+${response.Email}
 
 
 ## License
 
-MIT License
+${response.License}
 
-Copyright (c) [2022] [Jack Einhorn]
+Copyright (c) [2023] [Jack Einhorn]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -47,4 +52,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.`
 
+}
+
+module.exports = {
+    generateReadME
 }
