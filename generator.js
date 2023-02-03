@@ -5,6 +5,14 @@ const generateReadME = (response) => {
 
 ${response.Description}
 
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributors](#contributors)
+- [License](#license)
+- [Questions](#questions)
+- [Tests](#tests)
+
 ## Installation
 
 ${response.Installation}
@@ -17,20 +25,22 @@ ${response.Usage}
 
 ${response.Contributors}
 
-## Questions? Contact Me:
+## Questions
 
 GitHub Username: ${response.Username}
 
 GitHub Link: https://github.com/${response.Username}
 
-## Or Email Me: 
-
 ${response.Email}
 
+## Tests
+
+${response.Tests}
 
 ## License
 
 ${response.License}
+
 
 Copyright (c) [2023] [Jack Einhorn]
 
@@ -50,8 +60,13 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.`
+SOFTWARE.
 
+## REQUIRED LINKS
+
+GitHub Repo Link: https://github.com/skullkid4200/Week-9-ReadMe-Generator
+Video Demo Link: 
+`
 }
 
 module.exports = {
