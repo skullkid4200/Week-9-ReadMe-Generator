@@ -62,8 +62,4 @@ inquirer
   ])
   .then(handleResponse)
 
-  // .then((handleResponse) =>
-  //   fs.writeFile("readME.md", "poop"),
-  // );
-
 
