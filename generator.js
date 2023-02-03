@@ -65,6 +65,7 @@ SOFTWARE.
 ## REQUIRED LINKS
 
 GitHub Repo Link: https://github.com/skullkid4200/Week-9-ReadMe-Generator
+
 Video Demo Link: 
 `
 }
